@@ -2,4 +2,12 @@
 <hr>
 {{ page.content }}
 <hr>
-(c) 2021
+<p>
+  Now this is in the theme template, that means MkDocs's very own Jinja2.
+</p>
+<ul>
+  <li>Printing <code>yaml_extra_variable</code>: {{ yaml_extra_variable|default('(expected void)') }}</li>
+  <li>Printing <code>content_variable</code>: {{ content_variable|default('(expected void)') }}</li>
+  <li>Printing <code>page_specific_variable</code>: {{ page_specific_variable|default('(expected void)') }}</li>
+  <li>Printing <code>content_and_template_variable</code> in the template: {{ content_and_template_variable|default('DOES NOT WORK') }}</li>
+</ul>

@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+---
+page_specific_variable: 'works!'
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Magnificent Title
 
-## Commands
+This is in the Markdown content enhanced with the Macros plugin.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Printing `yaml_extra_variable`: {{ yaml_extra_variable }}
+- Printing `content_variable`: {{ content_variable }}
+- Printing `page_specific_variable`: {{ page_specific_variable }}
+- Printing `content_and_template_variable` in the content: {{ content_and_template_variable }}

@@ -6,3 +6,6 @@ theme:
 
 plugins:
   - macros
+
+extra:
+  yaml_extra_variable: 'works!'
