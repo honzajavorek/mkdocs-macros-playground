@@ -3,3 +3,6 @@ site_name: My Docs
 theme:
   name: null
   custom_dir: 'theme/'
+
+plugins:
+  - macros
