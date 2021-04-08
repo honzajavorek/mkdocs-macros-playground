@@ -8,4 +8,4 @@ plugins:
   - macros
 
 extra:
-  yaml_extra_variable: 'works!'
+  static_extra_var: 'works!'
